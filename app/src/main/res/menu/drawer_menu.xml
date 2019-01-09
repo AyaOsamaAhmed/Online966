@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item  android:id="@+id/Electronics" android:title="Electronics || Mobiles "  />
+
+        <item  android:id="@+id/Beauty" android:title="Beauty || Health"  />
+        <item  android:id="@+id/Fashion" android:title="Fashion"  />
+        <item  android:id="@+id/Office" android:title="Office Supplies"  />
+        <item  android:id="@+id/Automotive" android:title="Automotive"  />
+        <item  android:id="@+id/Home" android:title="Home || Decoration " />
+
+    </group>
+</menu>
