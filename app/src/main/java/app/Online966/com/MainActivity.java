@@ -72,13 +72,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     public void toolweb() {
         if (checkNetwork()) {
-            setContentView(R.layout.drawer_connect_admin1);
+            setContentView(R.layout.toolbar_connect_admin1);
             toolbar = (Toolbar) findViewById(R.id.toolbar_one);
             setSupportActionBar(toolbar);
             toolbar.setTitleTextColor(Color.rgb(255,255,255));
-            toolbar.setTitleMargin(170,0,0,0);
+            toolbar.setTitleMargin(260,0,0,0);
 
-            drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        /*    drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             toggle = new ActionBarDrawerToggle(
                     this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
             drawer.setDrawerListener(toggle);
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             navigationView.setNavigationItemSelectedListener(this);
             // navigationView.setItemIconTintList(null);
 
-            advancedwebview = (AdvancedWebView) findViewById(R.id.webView);
+           */ advancedwebview = (AdvancedWebView) findViewById(R.id.webView);
 
             advancedwebview.loadUrl("http://www.966online.com/index.php?route=common/home");
             advancedwebview.getSettings().setLoadWithOverviewMode(true);
