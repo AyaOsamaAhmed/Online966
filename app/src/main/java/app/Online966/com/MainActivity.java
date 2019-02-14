@@ -74,9 +74,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (checkNetwork()) {
             setContentView(R.layout.toolbar_connect_admin1);
             toolbar = (Toolbar) findViewById(R.id.toolbar_one);
-            setSupportActionBar(toolbar);
-            toolbar.setTitleTextColor(Color.rgb(255,255,255));
-            toolbar.setTitleMargin(260,0,0,0);
+          //
+            //  setSupportActionBar(toolbar);
+           // toolbar.setTitleTextColor(Color.rgb(255,255,255));
+           // toolbar.setTitleMargin(500,0,0,0);
 
         /*    drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             toggle = new ActionBarDrawerToggle(
